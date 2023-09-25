@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Lineal{
+public class Binaria{
     public static void main (String [] args){
         Scanner sc = new Scanner (System.in);
         int [] arra = {5, 12, 17, 23, 38, 45, 77, 84, 90};
