@@ -19,16 +19,14 @@ class Burbuja{
     public static void burbuja(int [] a){
         int aux;
         for(int i = 0; i < a.length; i++){
-            for(int j = 0; j < a.length - 1; j++){
+            for(int j = 0; j < a.length - i - 1; j++){
                 if(a[j] >= a[j + 1]){
                     aux = a[j + 1];
                     a[j + 1] = a[j];
                     a[j] = aux;
                 }
-                else{
-                    break;
-                }
             }
+            System.out.println(Arrays.toString(a));
         }
     }
 }
